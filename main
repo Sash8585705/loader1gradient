@@ -1,0 +1,229 @@
+--[[
+
+		Gui2Lua™
+		10zOfficial
+		Version 1.0.0
+
+]]
+
+
+-- Instances
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local Frutiz = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local NaturalDisasters1 = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local NaturalDisasters2 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local InfYield = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Sparky = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local InfYieldFD = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local key = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+
+-- Properties
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame.BorderColor3 = Color3.new(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.21321322, 0, 0.263546795, 0)
+Frame.Size = UDim2.new(0, 426, 0, 258)
+Frame.Active = true
+Frame.Draggable = true
+
+UICorner.Parent = Frame
+
+ScrollingFrame.Parent = Frame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.new(0.0823529, 0.368627, 0.792157)
+ScrollingFrame.BackgroundTransparency = 1
+ScrollingFrame.BorderColor3 = Color3.new(0, 0, 0)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Size = UDim2.new(0, 100, 0, 258)
+ScrollingFrame.Active = true
+
+Frutiz.Name = "Frutiz"
+Frutiz.Parent = ScrollingFrame
+Frutiz.BackgroundColor3 = Color3.new(0, 0, 0)
+Frutiz.BorderColor3 = Color3.new(0, 0, 0)
+Frutiz.BorderSizePixel = 0
+Frutiz.Size = UDim2.new(0, 87, 0, 47)
+Frutiz.Font = Enum.Font.SourceSans
+Frutiz.Text = "Blox Frutiz"
+Frutiz.TextColor3 = Color3.new(1, 1, 1)
+Frutiz.TextSize = 14
+Frutiz.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/Aurora", true))()
+end)
+
+UICorner_2.Parent = Frutiz
+
+NaturalDisasters1.Name = "Natural Disasters 1"
+NaturalDisasters1.Parent = ScrollingFrame
+NaturalDisasters1.BackgroundColor3 = Color3.new(0, 0, 0)
+NaturalDisasters1.BorderColor3 = Color3.new(0, 0, 0)
+NaturalDisasters1.BorderSizePixel = 0
+NaturalDisasters1.Position = UDim2.new(0, 0, 0.100775197, 0)
+NaturalDisasters1.Size = UDim2.new(0, 87, 0, 47)
+NaturalDisasters1.Font = Enum.Font.SourceSans
+NaturalDisasters1.Text = "Natural Disasters 1"
+NaturalDisasters1.TextColor3 = Color3.new(1, 1, 1)
+NaturalDisasters1.TextSize = 14
+NaturalDisasters1.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/garfield%20hub", true))();
+end)
+
+UICorner_3.Parent = NaturalDisasters1
+
+NaturalDisasters2.Name = "Natural Disasters 2"
+NaturalDisasters2.Parent = ScrollingFrame
+NaturalDisasters2.BackgroundColor3 = Color3.new(0, 0, 0)
+NaturalDisasters2.BorderColor3 = Color3.new(0, 0, 0)
+NaturalDisasters2.BorderSizePixel = 0
+NaturalDisasters2.Position = UDim2.new(0, 0, 0.201550394, 0)
+NaturalDisasters2.Size = UDim2.new(0, 87, 0, 47)
+NaturalDisasters2.Font = Enum.Font.SourceSans
+NaturalDisasters2.Text = "Keyboard"
+NaturalDisasters2.TextColor3 = Color3.new(1, 1, 1)
+NaturalDisasters2.TextSize = 14
+NaturalDisasters1.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+UICorner_4.Parent = NaturalDisasters2
+
+InfYield.Name = "Inf Yield"
+InfYield.Parent = ScrollingFrame
+InfYield.BackgroundColor3 = Color3.new(0, 0, 0)
+InfYield.BorderColor3 = Color3.new(0, 0, 0)
+InfYield.BorderSizePixel = 0
+InfYield.Position = UDim2.new(0, 0, 0.306201547, 0)
+InfYield.Size = UDim2.new(0, 87, 0, 47)
+InfYield.Font = Enum.Font.SourceSans
+InfYield.Text = "Inf YieldFE"
+InfYield.TextColor3 = Color3.new(1, 1, 1)
+InfYield.TextSize = 14
+InfYield.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Sash8585705/gui-loader-0.9.5/0f114a090ced19c79fabb7fc25eef8eb8724208b/gui%20pls", true))()
+end)
+
+UICorner_5.Parent = InfYield
+
+Sparky.Name = "Sparky"
+Sparky.Parent = ScrollingFrame
+Sparky.BackgroundColor3 = Color3.new(0, 0, 0)
+Sparky.BorderColor3 = Color3.new(0, 0, 0)
+Sparky.BorderSizePixel = 0
+Sparky.Position = UDim2.new(0, 0, 0.40697673, 0)
+Sparky.Size = UDim2.new(0, 87, 0, 47)
+Sparky.Font = Enum.Font.SourceSans
+Sparky.Text = "Sparky Admin (better)"
+Sparky.TextColor3 = Color3.new(1, 1, 1)
+Sparky.TextSize = 14
+Sparky.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+UICorner_6.Parent = Sparky
+
+InfYieldFD.Name = "Inf YieldFD"
+InfYieldFD.Parent = ScrollingFrame
+InfYieldFD.BackgroundColor3 = Color3.new(0, 0, 0)
+InfYieldFD.BorderColor3 = Color3.new(0, 0, 0)
+InfYieldFD.BorderSizePixel = 0
+InfYieldFD.Position = UDim2.new(0, 0, 0.519379854, 0)
+InfYieldFD.Size = UDim2.new(0, 87, 0, 47)
+InfYieldFD.Font = Enum.Font.SourceSans
+InfYieldFD.Text = "Inf YieldFD"
+InfYieldFD.TextColor3 = Color3.new(1, 1, 1)
+InfYieldFD.TextSize = 14
+InfYieldFD.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/QGQMm3yG"))();
+end)
+UICorner_7.Parent = InfYieldFD
+
+TextLabel.Parent = Frame
+TextLabel.Active = true
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.361502349, 0, 0.00775193796, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Welcome!"
+TextLabel.TextColor3 = Color3.new(1, 1, 1)
+TextLabel.TextSize = 35
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = Frame
+TextLabel_2.Active = true
+TextLabel_2.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_2.BackgroundTransparency = 1
+TextLabel_2.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.319248825, 0, 0.15891473, 0)
+TextLabel_2.Size = UDim2.new(0, 232, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "To Your free hub of possibilities!"
+TextLabel_2.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_2.TextSize = 20
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = Frame
+TextLabel_3.Active = true
+TextLabel_3.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_3.BackgroundTransparency = 1
+TextLabel_3.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.241784036, 0, 0.806201577, 0)
+TextLabel_3.Size = UDim2.new(0, 302, 0, 50)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Made by: teamhaxerd0g aka teamc00lkidd4"
+TextLabel_3.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_3.TextSize = 20
+TextLabel_3.TextWrapped = true
+
+key.Name = "key"
+key.Parent = Frame
+key.Active = true
+key.BackgroundColor3 = Color3.new(1, 1, 1)
+key.BackgroundTransparency = 1
+key.BorderColor3 = Color3.new(0, 0, 0)
+key.BorderSizePixel = 0
+key.Position = UDim2.new(0.241784036, 0, 0.325581402, 0)
+key.Size = UDim2.new(0, 302, 0, 50)
+key.Font = Enum.Font.SourceSans
+key.Text = "frutiz key: KEY-GOBLIN"
+key.TextColor3 = Color3.new(1, 1, 1)
+key.TextSize = 20
+key.TextWrapped = true
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.new(1, 1, 1)
+TextButton.BackgroundTransparency = 1
+TextButton.BorderColor3 = Color3.new(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.908450723, 0, -0.00775193796, 0)
+TextButton.Size = UDim2.new(0, 39, 0, 34)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.new(1, 1, 1)
+TextButton.TextSize = 38
+TextButton.MouseButton1Down:connect(function()
+	Frame.Active = false
+	Frame.Visible = false
+end)
