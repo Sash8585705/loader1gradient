@@ -134,7 +134,7 @@ Sparky.Text = "Sparky Admin (better)"
 Sparky.TextColor3 = Color3.new(1, 1, 1)
 Sparky.TextSize = 14
 Sparky.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Sash8585705/gui-loader-0.9.5/refs/heads/main/gui%20pls'),true))()
 end)
 
 UICorner_6.Parent = Sparky
